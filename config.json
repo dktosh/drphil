@@ -1,0 +1,13 @@
+{
+    "datastoreId" : "1014", 
+    "username" : "dktosh1987@gmail.com",
+	"apiKey" : "sHvYWy3aZm8hy+qbWlvGv8iZQZE0wBLaZiC3kx4aQKo=",
+	"key" : "BitpAxekyEKvQXY4I5Abmg",
+	"data" : [{"Device_Type" : "24", "Date_Time" : "10/3/2017  3:00:00 AM","Measurment_Dosage":"152","Units":"uM/mL","Drug":"","User":"387198398749832000"},
+				{"Device_Type" : "64", "Date_Time" : "10/3/2017  8:09:00 PM","Measurment_Dosage":"1000","Units":"mg","Drug":"Metformin","User":"387198398749832000"},
+				{"Device_Type" : "24", "Date_Time" : "10/3/2017  6:00:00 PM","Measurment_Dosage":"142","Units":"uM/mL","Drug":"","User":"387198398749832000"},
+				{"Device_Type" : "24", "Date_Time" : "10/3/2017  12:03:00 PM","Measurment_Dosage":"153","Units":"uM/mL","Drug":"","User":"387198398749832000"},
+				{"Device_Type" : "3", "Date_Time" : "10/3/2017  7:05:00 AM","Measurment_Dosage":"98.8","Units":"&#8451","Drug":"","User":"387198398749832000"},
+				{"Device_Type" : "84", "Date_Time" : "10/1/2017  3:07:00 AM","Measurment_Dosage":"7","Units":"%","Drug":"","User":"387198398749832000"}
+			]
+}

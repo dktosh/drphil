@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<script src="script\jquery.min.js"></script>
+<script src="script\script.js"></script>
+<link rel="stylesheet" type="text/css" href="bootstrap-3.3.6\css\bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="css\style.css">
+<script src="bootstrap-3.3.6\js\bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container-fluid" >
+<div class="row divHeaderContain">
+	<div class="col-xs-12">
+		<div class="divHeader">
+		  <div class="row">
+			<div class="col-xs-12 col-md-1">
+                <a href="Index.html"><img src="img\icon.png" alt="react" class="img-circle" style="width: 100px; height: 100px;background: white;">
+                </a>
+              </div>
+			<div class="col-xs-12 col-md-11"><h1>DR. PHIL's Healthcare Services</h1>
+				
+			</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="row divBodyContain">
+	<div class="divScan">
+		<a data-toggle="modal" data-target="#userModal">
+            <img src="img/doctor.png" height="550px">
+        </a>
+	</div>
+</div>
+<div class="row divFooterContain">
+	&copy; DR. PHIL's Healthcare Service
+</div>
+
+  <!-- userModal content-->
+  <div class="modal fade" id="userModal" role="dialog">
+    <div class="modal-dialog modal-lg">
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h2 class="modal-title">User Report</h2>
+        </div>
+        <div class="modal-body" id="divUserData">
+			<div class="divControls">
+		      <span><b> Please provide the Record IDs: </b></span><input type="text" id="txtUserRecordID"/> &nbsp;&nbsp; <a onclick="showRecord();" class="btn btn-primary"> Show</a>
+	        </div>  
+		    <div id="divRecordData">
+			</div>		   
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End of userModal content-->
+  
+  
+   
+</div>
+</body>
+</html>
+

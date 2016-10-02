@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<script src="script\jquery.min.js"></script>
+<script src="script\script.js"></script>
+<link rel="stylesheet" type="text/css" href="bootstrap-3.3.6\css\bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="css\style.css">
+<script src="bootstrap-3.3.6\js\bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container-fluid" >
+<div class="row divHeaderContain">
+	<div class="col-xs-12">
+		<div class="divHeader">
+		  <div class="row">
+			<div class="col-xs-12 col-md-1">
+                <a href="Index.html"><img src="img\icon.png" alt="react" class="img-circle" style="width: 100px; height: 100px;background: white;">
+                </a>
+              </div>
+			<div class="col-xs-12 col-md-11"><h1>DR. Phil's Healthcare Services</h1>
+				<nav class="navbar navbar-default divMenu">
+					  <div class="container-fluid">
+						<ul class="nav navbar-nav">
+							<li class="active"><a href="index.html"><i class="glyphicon glyphicon-home"></i> Home</a></li>
+							<li class="inActive dropdown">
+								<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+									<i class="glyphicon glyphicon-cog"></i>
+									 Setting
+									<span class="caret"></span>
+								</a>
+								<ul class="dropdown-menu">
+									<li><a data-toggle="modal" data-target="#pairDevicesModal">PAIR DEVICES</a></li>
+									<li><a data-toggle="modal" data-target="#registryModal">REGISTRY</a></li>
+									<li><a data-toggle="modal" data-target="#accountModal">ACCOUNT</a></li> 
+									<li><a data-toggle="modal" data-target="#historyModal">HISTORY</a></li> 
+								</ul>
+							</li>
+						</ul>
+					  </div>
+				</nav>
+			</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="row divBodyContain">
+	<div class="divImg">
+		<img src="img/figure_x_ray.gif" class="bodyImg"/>
+	</div>
+	<div class="divScan">
+		<a data-toggle="modal" data-target="#preloadModal">
+            <img src="img/search.png" height="150px">
+        </a>
+	</div>
+</div>
+<div class="row divFooterContain">
+
+   &copy; DR. PHIL's Healthcare Service
+</div>
+
+  <!-- preloadModal content-->
+  <div class="modal fade" id="preloadModal" role="dialog">
+    <div class="modal-dialog modal-lg">
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h2 class="modal-title">Scanning Results</h2>
+        </div>
+        <div class="modal-body" id="divScanData">
+          <div class="divImg">
+		      <img src="img/datastream0.gif" width="500px"/>
+	       </div>  
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End of preloadModal content-->
+  
+  <!-- historyModal content-->
+  <div class="modal fade" id="historyModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">HISTORY</h4>
+        </div>
+        <div class="modal-body" id="divloadData">
+          <img src="img/datastream0.gif" width="500px"/>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  <!-- End of historyModal content-->
+  
+  <!-- pairDevicesModal content-->
+  <div class="modal fade" id="pairDevicesModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Pair Devices</h4>
+        </div>
+        <div class="modal-body">
+          <a href='#' class='btn btn-primary btn-lg'> Pair Device </a>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  <!-- End of pairDevicesModal content-->
+  
+  <!-- registryModal content-->
+  <div class="modal fade" id="registryModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Registry</h4>
+        </div>
+        <div class="modal-body">
+         
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  <!-- End of registryModal content-->
+  
+  <!-- accountModal content-->
+  <div class="modal fade" id="accountModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Account</h4>
+        </div>
+        <div class="modal-body" >
+          
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  <!-- End of accountModal content-->
+   
+</div>
+</body>
+</html>
+
